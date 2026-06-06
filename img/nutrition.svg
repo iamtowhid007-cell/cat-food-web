@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Bowl and kibble illustration">
+  <defs>
+    <linearGradient id="nbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" style="stop-color:#16141a"/>
+      <stop offset="100%" style="stop-color:#0a0a0b"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#3f3a35"/>
+      <stop offset="100%" style="stop-color:#1c1916"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#nbg)"/>
+  <ellipse cx="600" cy="520" rx="320" ry="90" fill="url(#bowl)" stroke="#f97316" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="600" cy="480" rx="280" ry="70" fill="#2a2622"/>
+  <g fill="#f97316">
+    <circle cx="480" cy="450" r="14"/><circle cx="520" cy="430" r="12"/><circle cx="560" cy="445" r="15"/>
+    <circle cx="600" cy="425" r="13"/><circle cx="640" cy="440" r="14"/><circle cx="680" cy="430" r="12"/>
+    <circle cx="720" cy="450" r="14"/><circle cx="540" cy="465" r="13"/><circle cx="660" cy="465" r="12"/>
+  </g>
+  <text x="600" y="780" text-anchor="middle" fill="#faf6ef" font-family="system-ui,sans-serif" font-size="26" opacity="0.85">Premium kibble</text>
+</svg>
